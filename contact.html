@@ -44,22 +44,32 @@
     </nav>
 
     <!--Showcasing-->
-    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-start">
+    <section class="bg-secondary text-dark p-5 p-lg-0 pt-lg-5 text-center text-start">
         <div class="containter">
             <div class="d-sm-flex align-items-center justify-content-between">
-                <div>
-                    <h1>Story Of <span class="text-warning ff-">My Life</span></h1>
-                    <p class="lead my-4 text-light">
-                        My name is Sabelo Msezane BSc Hons Computer Science Graduand, utilized under 
-                        the domain of <span class="text-primary fw-bold">Machine Learning</span>  
-                        and <span class="text-primary fw-bold">Artificial Intelligence</span> on my
-                        research. Worked with <span class="text-warning fw-bold">Java</span> 
-                        and <span class="text-warning fw-bold">Android Development</span> extensive. 
-                        Currently persue the state of being self-taugh <span class="text-secondary fw-bold">
-                            Web Devloper</span> 
-                    </p>
-                    <a href="https://www.linkedin.com/in/sabelo-msezane-190aa5204" 
-                    class=" bi bi-plug btn btn-primary bi-chevron-right btn-lg" >Connect with Me</a>
+                <div class="container mb-5">
+                    <h1 class="display-4 text-center"> 
+                        <i class="bi bi-person-lines-fill text-primary"></i> <span 
+                            class="text-primary">Contact</span> Us</h1>
+                         <form action="https://formspree.io/f/xnqwdwog" method="POST" id="book-form">
+                             <div class="form-group">
+                                 <label for="firstname"> <b>FirstName</b>  </label>
+                                 <input name="firstName" type="text" id="firstname" required
+                                 class="form-control">
+                             </div>
+                             <div class="form-group">
+                                <label for="lastname"><b>LastName</b> </label>
+                                <input name="lastName" type="text" id="lastname" required
+                                class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email"> <b>Message</b></label>
+                                <textarea rows="3" name="Message" type="text" id="email" required
+                                class="form-control">Connect With Us Via Message</textarea>
+                            </div>
+                            <input type="submit" value="Send" 
+                            class="btn btn-primary btn-block mt-3">
+                        </form>        
                 </div>
                 <img class="img-fluid w-50 d-none d-sm-block" src="../CodeTribute_BootCamp/img/showcase.svg" alt="">
             </div>
